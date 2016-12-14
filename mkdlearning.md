@@ -8,7 +8,7 @@ tags: atom, hexo, blog, markdown
 ===========
 
 <p>搞了hexo以后，因为hexo的post文件要用markdown写嘛，然后就来了解markdown了~~~</p>
-随便找了点[资料](http://www.aaronsw.com/)，一个[很火的github页面](https://github.com/younghz/Markdown)对创始人的介绍：
+随便找了点[资料](http://www.aaronsw.com/)，一个[点击量很高的github页面](https://github.com/younghz/Markdown)对创始人的介绍：
 
 >它由Aaron Swartz和John Gruber共同设计，Aaron Swartz就是那位于去年（2013年1月11日）自杀,有着开挂一般人生经历的程序员。维基百科对他的介绍是：软件工程师、作家、政治组织者、互联网活动家、维基百科人。
 
@@ -35,3 +35,5 @@ tags: atom, hexo, blog, markdown
 > 这个。。。只好待解决了。这个Markdown Preview 插件明显是可以定制的。。
 > [一点参考](https://atom.io/packages/markdown-preview)
 > 当然网页的渲染也是可以定制的啦， 这个比较简单，教程不要太多
+
+- ATOM的数学公式 $mathjax$ 需要搞~~一堆~~两个插件

@@ -13,8 +13,12 @@ title: 动态规划优化——学习笔记
 定义: $dp[i][j][k]$ 表示前面i个数字，分成了j组，最后一组还剩下的容量为k
 
 $$
-dp[i][j][k] = \begin{cases} max\{dp[i - 1][j][k - w[i]], dp[i  - 1][j][k]\} & k\geq w[i] \\ max(dp[i - 1][j][k], dp[i - 1][j - 1], dp[i - 1][j - 1][t - w[i]]) & k < w[i] \end{cases}
+dp[i][j][k] = \begin{cases}
+max\{dp[i - 1][j][k - w[i]], dp[i  - 1][j][k]\} & k\geq w[i] \\\\
+max(dp[i - 1][j][k], dp[i - 1][j - 1], dp[i - 1][j - 1][t - w[i]]) & k < w[i]
+\end{cases}
 $$
+
 这样的话， 于是空间复杂度$O(nmt)$ 时间复杂度也是$O(nmt)$
 - 一种改进方式
 $dp[i][j] = (x, y)$ 表示在前 $i$ 个数字里面要选到 $j$ 个以后用了 $(x, y), x 个组，最后一组还有y容量$

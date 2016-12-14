@@ -1,11 +1,13 @@
 ---
 title: New stage, New toolchains.
+tags: life, tool,
 ---
+
 # 新的toolchains
 chinafinal结束以后第一件事情搞了个blog，
 ***
 ChinaFinal……结束了啊……
-今年最后一场比赛，忽然感觉，上大真的是给予我好多。
+今年最后一场比赛，忽然感觉，上大真的太好。
 在其他的学校，我这种模板都没打全的弱鸡，别说出去打比赛，集训队都不一定呆的住吧。。
 然而还是羞耻地出来打final了。
 **结果侥幸炼铜**
