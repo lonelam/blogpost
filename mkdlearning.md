@@ -18,6 +18,8 @@ tags: atom, hexo, blog, markdown
 这种online editor。
 这个似乎并不是特别给力，还要各种注册什么的，然后群神又说VSCode上面也可以写。
 然而之前在VSCode上写cpp的体验实在是让我对VSCode已经丧失了各种信心，之前在知乎上有看到过ATOM的介绍，当时感觉不错，于是入坑ATOM。
+- 在ATOM下配置markdown Preview 的一些可能的坑
+> 似乎Markdown Preview Plus 和原装的Markdown Preview有一定的冲突可能，尤其是存在其他相关的Packages的情况下，所以最好是装上Markdown Preview Plus之后就把原生的Markdown Preview给disable了，然后装Markdown-scroll-sync 和 language-markdown这两个包
 
 - 如何关闭ATOM下的拼写检查？
 
@@ -36,4 +38,6 @@ tags: atom, hexo, blog, markdown
 > [一点参考](https://atom.io/packages/markdown-preview)
 > 当然网页的渲染也是可以定制的啦， 这个比较简单，教程不要太多
 
-- ATOM的数学公式 $mathjax$ 需要搞~~一堆~~两个插件
+- ATOM Markdown Preveiw 数学公式 $mathjax$ 需要搞上点插件
+> Settings View: Install Packages and Themes
+> :markdown-preview plus
